@@ -44,6 +44,61 @@ a {
   text-decoration: none;
 }
 
+/* .photo {
+  height: 340px;
+  width: 20%;
+  display: grid;
+  grid-template-rows: 340px;
+  grid-template-areas: "";
+  margin-bottom: 20px;
+  background-image: url("../images/photo.jpg");
+  background-size: cover;
+  background-position: left;
+} */
+
+.hero-banner {
+  margin-bottom: 10px;
+  padding: 20px;
+  background-image: url(../images/02-hero-bg.jpg);
+  color: red;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  font-size: 40px;
+  
+
+}
+
+.sideBar h2 {
+  
+  padding-top: 15px;
+  margin-left: 20px;
+  clear: both;
+  float: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+  width: 20%;
+  height: 100%;
+  
+}
+
+#about {
+  margin-top: 5%;
+  padding: 5px;
+
+}
+
+#about p {
+  margin:0%;
+
+}
+
+#work {
+  margin: 5%;
+  padding: 5px;
+  
+}
+
 
 h1,
 h2,
