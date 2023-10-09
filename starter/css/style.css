@@ -97,11 +97,9 @@ section h2 {
 }
 section div {
   flex: 1 1 0;
-  background-color: #ffffff;
 }
 
 section#work div{
-  background-color:#ffffff;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -145,11 +143,7 @@ h3{
   background-size: cover;
 }
 
-.contact2 {
-  display:flex;
-  padding:10px;
-  background-color: blueviolet;
-}
-#contact {
-flex-direction: row;
+section#contact div {
+  display: flex;
+  justify-content: space-evenly;
 }
