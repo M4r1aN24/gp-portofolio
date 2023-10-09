@@ -66,7 +66,7 @@ header a {
 .hero-banner {
   margin-bottom: 10px;
   padding: 20px;
-  background-image: url(../images/02-hero-bg.jpg);
+  background-image: url(../gp-portofolio/images/02-hero-bg.jpg);
   color: yellowgreen;
   background-size: cover;
   background-position: center;
@@ -123,23 +123,23 @@ h3{
   display: flex;
 }
 #horiseon-marketing-job {
-  background-image: url(../images/horiseon.png);
+  background-image: url(../gp-portofolio/images/horiseon.png);
   background-size: cover;
 }
 #github {
-  background-image:url(../images/Github.png);
+  background-image:url(../gp-portofolio/images/Github.png);
   background-size: cover;
 }
 #ledwall {
-  background-image: url(../images/ledwall.jpg);
+  background-image: url(../gp-portofolio/images/ledwall.jpg);
   background-size: cover;
 }
 #calculator {
-  background-image: url(../images/calculator.jpg);
+  background-image: url(../gp-portofolio/images/calculator.jpg);
   background-size: cover;
 }
 #run-buddy {
-  background-image: url(../images/02-run-buddy.jpg);
+  background-image: url(../gp-portofolio/images/02-run-buddy.jpg);
   background-size: cover;
 }
 
