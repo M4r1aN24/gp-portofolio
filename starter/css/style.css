@@ -10,6 +10,21 @@ body {
   background-color:white;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+/* Nav Bar code */
+
 header {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -39,23 +54,15 @@ header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
-a {
+
+header a {
   color: #ffffff;
   text-decoration: none;
 }
+ /* Nav bar code end */ 
 
-/* .photo {
-  height: 340px;
-  width: 20%;
-  display: grid;
-  grid-template-rows: 340px;
-  grid-template-areas: "";
-  margin-bottom: 20px;
-  background-image: url("../images/photo.jpg");
-  background-size: cover;
-  background-position: left;
-} */
 
+ /* Subtitle code start */
 .hero-banner {
   margin-bottom: 10px;
   padding: 20px;
@@ -69,46 +76,57 @@ a {
 
 }
 
-.sideBar h2 {
-  
-  padding-top: 15px;
-  margin-left: 20px;
-  clear: both;
-  float: left;
+/* subtitle code end */
+
+/* Side bar code start */
+
+main section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 5px;
+  background-color: aqua;
+  align-items: center;
+}
+main section+section {
+  margin-top: 3%;
+}
+
+section h2 {
+  flex: 0 0 10ch;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 50px;
-  width: 20%;
-  height: 100%;
+ 
+}
+section div {
+  flex: 1 1 0;
+  background-color: red;
+}
+
+section#work div{
+  background-color: green;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+section article {
+  flex: 1 0 100px;
+  background-color: blueviolet;
+  height: 200px;
+
+}
+
+section article:first-child {
+  flex-basis: 100%;
   
 }
+/* Side bar code end */
 
-#about {
-  margin-top: 5%;
-  padding: 5px;
-
-}
-
-#about p {
-  margin:0%;
-
-}
-
-#work {
-  margin: 5%;
-  padding: 5px;
-  
-}
+/* Grid area code */
 
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
 
-p {
-  margin: 0;
-}
+
+
+/* footer code */ 
+
