@@ -125,6 +125,7 @@ h3{
 #horiseon-marketing-job {
   background-image: url(../gp-portofolio/images/horiseon.png);
   background-size: cover;
+  min-height: 600px;
 }
 #github {
   background-image:url(../gp-portofolio/images/Github.png);
